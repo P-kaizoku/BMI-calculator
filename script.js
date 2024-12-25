@@ -42,7 +42,7 @@ submitButton.addEventListener("click", () => {
   }
 });
 
-
+// clear button added, enjoy!
 clearButton.addEventListener("click", () => {
     heightInput.value = "";
     weightInput.value = "";
