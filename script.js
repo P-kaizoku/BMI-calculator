@@ -30,12 +30,12 @@ submitButton.addEventListener("click", () => {
   }
 
   if (BMI < 18.5) {
-    remark.innerHTML = "You are underweight 👋";
+    remark.innerHTML = "You are underweight: Hilana bnd krde bhyi 👋";
   } else if (BMI < 24.9) {
-    remark.innerHTML = "Normal weight 😏";
+    remark.innerHTML = "Normal weight: Ghamand mt kr zyada 😏";
   } else if (BMI < 29.9) {
-    remark.innerHTML = "Overweight 🏃‍♂️";
+    remark.innerHTML = "Overweight: kaamchor mehnat krle thodi 🏃‍♂️";
   } else {
-    remark.innerHTML = "Obese 🫡";
+    remark.innerHTML = "Obese: pure sansaar ka khana tu hi khata h ky 🫡";
   }
 });
