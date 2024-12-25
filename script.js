@@ -35,7 +35,7 @@ submitButton.addEventListener("click", () => {
     remark.innerHTML = "Normal weight: Ghamand mt kr zyada 😏";
   } else if (BMI < 29.9) {
     remark.innerHTML = "Overweight: kaamchor mehnat krle thodi 🏃‍♂️";
-  } else {
+  } else if (BMI >= 30){
     remark.innerHTML = "Obese: pure sansaar ka khana tu hi khata h ky 🫡";
   }
 });
