@@ -33,7 +33,7 @@ input[type="number"] {
   border-radius: 5px;
 }
 
-button {
+#submit {
   background-color: #28a745;
   color: #fff;
   padding: 10px 20px;
@@ -43,8 +43,22 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+#clear {
+  background-color: #a72828;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#submit:hover {
   background-color: #218838;
+}
+
+#clear:hover {
+  background-color: #882121;
 }
 
 #results {

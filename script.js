@@ -1,6 +1,7 @@
 const heightInput = document.getElementById("height");
 const weightInput = document.getElementById("weight");
 const submitButton = document.getElementById("submit");
+const clearButton = document.getElementById("clear");
 const results = document.getElementById("results");
 const display = document.createElement("p");
 const remark = document.createElement("p");
@@ -40,3 +41,9 @@ submitButton.addEventListener("click", () => {
     remark.innerHTML = "Obese: pure sansaar ka khana tu hi khata h ky 🫡";
   }
 });
+
+
+clearButton.addEventListener("click", () => {
+    heightInput.value = "";
+    weightInput.value = "";
+})
