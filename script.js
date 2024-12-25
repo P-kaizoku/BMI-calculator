@@ -24,6 +24,7 @@ submitButton.addEventListener("click", () => {
   ) {
     display.innerHTML =
       "Enter some valid digits! or kuch khali mt chor 💀";
+      remark.innerHTML = "";
   } else {
     BMI = weightValue / heightValue ** 2;
     display.innerHTML = `The BMI is: ${BMI.toFixed(2)}`;
